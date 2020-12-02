@@ -15,7 +15,7 @@ fi
 
 #PKG_DEPS="coreutils usbutils curl wget zip xz-utils python-lxml python-setuptools python-pexpect aapt lib32z1-dev libc6-dev-i386 lib32gcc1 libc6:i386 libstdc++6:i386 libgcc1:i386 zlib1g:i386 libncurses5:i386 python-dev python-protobuf protobuf-compiler python-virtualenv python-pip python-pexpect psmisc"
 
-PKG_DEPS="coreutils usbutils curl wget zip xz-utils python-lxml python-setuptools python-pexpect aapt lib32z1-dev libc6-dev-arm64-cross lib32gcc1 libc6 libstdc++6 libstdc++6-arm64-cross libgcc1 libgcc1-arm64-cross zlib1g libncurses5 python-dev python-protobuf protobuf-compiler python-virtualenv python-pip python-pexpect psmisc"
+PKG_DEPS="coreutils usbutils curl wget zip xz-utils python-lxml python-setuptools python-pexpect aapt libc6-dev-arm64-cross libc6 libstdc++6 libstdc++6-arm64-cross libgcc1 libgcc1-arm64-cross zlib1g libncurses5 python-dev python-protobuf protobuf-compiler python-virtualenv python-pip python-pexpect psmisc"
 
 dist_name
 case "${dist}" in
